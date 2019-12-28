@@ -1,0 +1,147 @@
+h1{
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+h2{
+font-family: "Montserrat";
+font-weight: bold;
+font-size: 3rem;
+line-height: 1.5;
+}
+
+h3{
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+body{
+  font-family:"Montserrat";
+}
+
+p{
+  color: #8f8f8f;
+}
+/****************class **************/
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+.mockup{
+  height: 33rem;
+  width: 27rem;
+}
+
+/* navbar */
+.navbar{
+  padding:0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: 'Patua One', cursive;
+  font-size: 2rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-family: "Montserrat";
+}
+/* download button */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+.icon{
+color: #76a21e;
+margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #a8ff3e;
+}
+.user-img-1{
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.user-img-2{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.user-img-3{
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.carousel-item{
+   padding: 7% 15%;
+}
+.pricing-col{
+  padding: 3% 2%;
+}
+.social-icon{
+  padding: 2%;
+}
+.fa-cog{
+  color: black;
+}
+.plan-btn{
+  color: black;
+}
+
+/*************ID**************/
+
+
+#title{
+  background-color: #76a21e;
+    color: #fff;
+}
+
+/* features section */
+
+#features{
+  padding: 7% 15%;
+}
+/* testimonials */
+#testimonials{
+
+  text-align: center;
+  background-color: #76a21e;
+  color: white;
+
+}
+#press{
+  background-color: #76a21e;
+  text-align: center;
+
+}
+#pricing{
+  padding: 5rem;
+  text-align: center;
+}
+#CTA{
+  background-color: #76a21e;
+  color: #fff;
+  padding: 7% 15% ;
+  text-align: center;
+}
+#footer{
+  text-align: center;
+  padding: 7% 15% ;
+}
+@media (max-width:1028) {
+   #title{
+     text-align: center;
+   }
+}
